@@ -1,4 +1,4 @@
-package jpabook.jpahop.domain;
+package jpabook.jpashop.domain;
 
 import javax.persistence.Entity;
 

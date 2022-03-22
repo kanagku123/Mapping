@@ -1,11 +1,11 @@
-package jpabook.jpahop.domain;
+package jpabook.jpashop.domain;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Category {
+public class Category extends BaseEntity{
 
 
     @Id

@@ -1,6 +1,6 @@
-package jpabook.jpahop;
+package jpabook.jpashop;
 
-import jpabook.jpahop.domain.*;
+import jpabook.jpashop.domain.*;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -24,6 +24,10 @@ public class JpaMain {
             book.setAuthor("김영한");
 
             em.persist(book);
+
+            em.flush();
+            em.clear();
+
 
             tx.commit();
         }catch (Exception e){
