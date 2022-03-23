@@ -28,7 +28,6 @@ public class JpaMain {
             em.flush();
             em.clear();
 
-
             tx.commit();
         }catch (Exception e){
             tx.rollback();
