@@ -21,7 +21,7 @@ public class JpaMain {
         try {
             Book book = new Book();
             book.setName("JPA");
-            book.setAuthor("김영한");
+            book.setAuthor("인프런");
 
             em.persist(book);
 
