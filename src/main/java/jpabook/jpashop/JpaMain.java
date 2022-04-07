@@ -21,6 +21,9 @@ public class JpaMain {
         try {
 
 
+
+
+
             em.flush();
             em.clear();
 
